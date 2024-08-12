@@ -1,5 +1,5 @@
 FROM openjdk:latest
 WORKDIR /app
 COPY . /app
-RUN javac NumberCheck.java
-CMD ["java", "NumberCheck"]
+RUN javac SimpleCalculation.java
+CMD ["java", "SimpleCalculation"]
